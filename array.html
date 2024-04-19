@@ -8,9 +8,61 @@
 <body>
     <h1>Array Practice</h1>
     <script>
+
+        /*
+        // Array Created
+
         const students = ["Sneha","Vaishnavi","Vaishali","Amruta","Gayatri"];
         console.log(students[0]);
-        
+        */
+       
+        // Array Method
+
+        // length method 
+        const numbers =[10,20,30,40,50,60,70,80,90,100];
+        const count = numbers.length;
+        console.log(count);
+
+        // push method 
+        const students =["Sneha","Vaishnavi","Vaishali","Amruta"];
+        console.log(students);
+        students.push("Santoshi");
+        console.log(students);
+
+        // push method 
+        students.pop();
+        console.log(students);
+
+        // unshift method 
+        students.unshift("Santoshi");
+        console.log(students);
+
+        // shift method 
+        students.shift();
+        console.log(students);
+
+         // splice method 
+         students.splice(1,2,"Sonakshi","Rutuja");
+         console.log( students);
+
+         // join method 
+         console.log(students.join());
+
+         // reverse method
+         students.reverse();
+         console.log( students);
+
+         // sort method 
+         students.sort();
+         console.log( students);
+
+         //indexOf method
+         const index =  students.indexOf("Sneha");
+         console.log(index);
+
+         // includes method 
+         console.log( students.includes("vaishnavi"));
+         console.log( students.includes("Sneha"));
     </script>
 </body>
 </html>
